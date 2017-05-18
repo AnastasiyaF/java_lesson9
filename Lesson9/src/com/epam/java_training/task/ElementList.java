@@ -2,10 +2,10 @@ package com.epam.java_training.task;
 
 public class ElementList<E> {
 	
-	private ElementList<E> next; //указатель на следующий элемент
-	private E element; //непосредственно данные
+	private ElementList<E> next; //ГіГЄГ Г§Г ГІГҐГ«Гј Г­Г  Г±Г«ГҐГ¤ГіГѕГ№ГЁГ© ГЅГ«ГҐГ¬ГҐГ­ГІ
+	private E element; //Г­ГҐГЇГ®Г±Г°ГҐГ¤Г±ГІГўГҐГ­Г­Г® Г¤Г Г­Г­Г»ГҐ
 	
-	ElementList(){
+	ElementList(){// Р° РєСѓРґР° РїСЂРѕРїР°Р»Рё Р°С‚СЂРёР±СѓС‚С‹ РґРѕСЃС‚Р° Сѓ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂРѕРІ?
 		
 		element = null;
 		next = null;
